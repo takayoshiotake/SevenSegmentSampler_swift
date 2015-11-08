@@ -1,5 +1,5 @@
 //
-//  SevenSegmentImageView.swift
+//  BBSevenSegmentImageView.swift
 //  SevenSegmentViewSampler
 //
 //  Created by Takayoshi Otake on 2015/11/08.
@@ -9,13 +9,13 @@
 import UIKit
 
 @IBDesignable
-class SevenSegmentImageView: SevenSegmentView {
+class BBSevenSegmentImageView: BBSevenSegmentView {
     private static var contentSize: CGSize!
     private static var contents: [Pins: UIImage]!
     
     private static var staticInitOnce = dispatch_once_t();
     private class func staticInit() {
-        dispatch_once(&SevenSegmentImageView.staticInitOnce) { () -> Void in
+        dispatch_once(&BBSevenSegmentImageView.staticInitOnce) { () -> Void in
             contentSize = CGSizeMake(24, 40)
             
             var temp_contents: [Pins: UIImage] = [:]
@@ -53,19 +53,19 @@ class SevenSegmentImageView: SevenSegmentView {
     // MARK: -
     
     required init?(coder aDecoder: NSCoder) {
-        SevenSegmentImageView.staticInit()
+        BBSevenSegmentImageView.staticInit()
         super.init(coder: aDecoder)
     }
     
     override init(frame: CGRect) {
-        SevenSegmentImageView.staticInit()
+        BBSevenSegmentImageView.staticInit()
         super.init(frame: frame)
     }
     
     // MARK: -
     
     override func intrinsicContentSize() -> CGSize {
-        return SevenSegmentImageView.contentSize!
+        return BBSevenSegmentImageView.contentSize!
     }
 
     override func drawRect(rect: CGRect) {
@@ -74,14 +74,14 @@ class SevenSegmentImageView: SevenSegmentView {
         onColor?.setFill()
         for pin in Pins.Values {
             if switchesOnPins[pin]! {
-                SevenSegmentImageView.contents[pin]?.drawAtPoint(CGPointZero)
+                BBSevenSegmentImageView.contents[pin]?.drawAtPoint(CGPointZero)
             }
         }
         
         offColor?.setFill()
         for pin in Pins.Values {
             if !switchesOnPins[pin]! {
-                SevenSegmentImageView.contents[pin]?.drawAtPoint(CGPointZero)
+                BBSevenSegmentImageView.contents[pin]?.drawAtPoint(CGPointZero)
             }
         }
     }

@@ -26,13 +26,13 @@ class ViewController: UIViewController {
     ]
     var value: Int = 0 {
         didSet {
-            if let temp_view = stackView.subviews[0] as? SevenSegmentView {
+            if let temp_view = stackView.subviews[0] as? BBSevenSegmentView {
                 temp_view.pinBits = valueMap[(value / 100) % 10]!
             }
-            if let temp_view = stackView.subviews[1] as? SevenSegmentView {
+            if let temp_view = stackView.subviews[1] as? BBSevenSegmentView {
                 temp_view.pinBits = valueMap[(value / 10) % 10]! | 0x80
             }
-            if let temp_view = stackView.subviews[2] as? SevenSegmentView {
+            if let temp_view = stackView.subviews[2] as? BBSevenSegmentView {
                 temp_view.pinBits = valueMap[(value / 1) % 10]!
             }
         }

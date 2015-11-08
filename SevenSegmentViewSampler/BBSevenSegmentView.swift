@@ -1,5 +1,5 @@
 //
-//  SevenSegmentView.swift
+//  BBSevenSegmentView.swift
 //  SevenSegmentViewSampler
 //
 //  Created by Takayoshi Otake on 2015/11/08.
@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class SevenSegmentView: UIView {
+class BBSevenSegmentView: UIView {
     
     enum Pins {
         case A

@@ -1,5 +1,5 @@
 //
-//  SevenSegmentDrawingView.swift
+//  BBSevenSegmentDrawingView.swift
 //  SevenSegmentViewSampler
 //
 //  Created by Takayoshi Otake on 2015/11/08.
@@ -9,13 +9,13 @@
 import UIKit
 
 @IBDesignable
-class SevenSegmentDrawingView: SevenSegmentView {
+class BBSevenSegmentDrawingView: BBSevenSegmentView {
     private static var contentSize: CGSize!
     private static var contents: [Pins: UIBezierPath]!
     
     private static var staticInitOnce = dispatch_once_t();
     private class func staticInit() {
-        dispatch_once(&SevenSegmentDrawingView.staticInitOnce) { () -> Void in
+        dispatch_once(&BBSevenSegmentDrawingView.staticInitOnce) { () -> Void in
             contentSize = CGSizeMake(24, 40)
             
             var temp_contents: [Pins: UIBezierPath] = [:]
@@ -136,38 +136,38 @@ class SevenSegmentDrawingView: SevenSegmentView {
     // MARK: -
     
     required init?(coder aDecoder: NSCoder) {
-        SevenSegmentDrawingView.staticInit()
+        BBSevenSegmentDrawingView.staticInit()
         super.init(coder: aDecoder)
     }
     
     override init(frame: CGRect) {
-        SevenSegmentDrawingView.staticInit()
+        BBSevenSegmentDrawingView.staticInit()
         super.init(frame: frame)
     }
     
     // MARK: -
     
     override func intrinsicContentSize() -> CGSize {
-        return SevenSegmentDrawingView.contentSize!
+        return BBSevenSegmentDrawingView.contentSize!
     }
     
     override func drawRect(rect: CGRect) {
         let switchesOnPins = self.switchesOnPins
         
         let ctx = UIGraphicsGetCurrentContext()
-        CGContextConcatCTM(ctx, CGAffineTransformMakeScale(bounds.width / SevenSegmentDrawingView.contentSize.width, bounds.height / SevenSegmentDrawingView.contentSize.height))
+        CGContextConcatCTM(ctx, CGAffineTransformMakeScale(bounds.width / BBSevenSegmentDrawingView.contentSize.width, bounds.height / BBSevenSegmentDrawingView.contentSize.height))
         
         onColor?.setFill()
         for pin in Pins.Values {
             if switchesOnPins[pin]! {
-                SevenSegmentDrawingView.contents[pin]?.fill()
+                BBSevenSegmentDrawingView.contents[pin]?.fill()
             }
         }
         
         offColor?.setFill()
         for pin in Pins.Values {
             if !switchesOnPins[pin]! {
-                SevenSegmentDrawingView.contents[pin]?.fill()
+                BBSevenSegmentDrawingView.contents[pin]?.fill()
             }
         }
     }

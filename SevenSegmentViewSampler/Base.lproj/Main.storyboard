@@ -24,7 +24,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Enc-F7-E80">
                                         <rect key="frame" x="2" y="2" width="128" height="40"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nwg-h0-CNb" customClass="SevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nwg-h0-CNb" customClass="BBSevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="24" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -45,7 +45,7 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="pinG" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPX-ST-8Tt" customClass="SevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPX-ST-8Tt" customClass="BBSevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="26" y="0.0" width="24" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -67,7 +67,7 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="pinF" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cfE-Wf-agE" customClass="SevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cfE-Wf-agE" customClass="BBSevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="52" y="0.0" width="24" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -87,7 +87,7 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="pinF" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUf-Rg-8jY" customClass="SevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUf-Rg-8jY" customClass="BBSevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="78" y="0.0" width="24" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -107,7 +107,7 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="pinF" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bxf-w2-3yq" customClass="SevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bxf-w2-3yq" customClass="BBSevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="104" y="0.0" width="24" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -135,7 +135,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="a4S-Ip-3k7">
                                         <rect key="frame" x="154" y="2" width="128" height="40"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUF-d2-0BT" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUF-d2-0BT" customClass="BBSevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="24" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -158,7 +158,7 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="pinD" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tvX-rz-87j" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tvX-rz-87j" customClass="BBSevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="26" y="0.0" width="24" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -179,7 +179,7 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="pinC" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G9h-qX-9xK" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G9h-qX-9xK" customClass="BBSevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="52" y="0.0" width="24" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -200,7 +200,7 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="pinDP" value="NO"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xt8-zh-4lp" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xt8-zh-4lp" customClass="BBSevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="78" y="0.0" width="24" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -220,7 +220,7 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="pinF" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eU1-gF-gO1" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eU1-gF-gO1" customClass="BBSevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="104" y="0.0" width="24" height="40"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -265,7 +265,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1K-aW-u2l">
                                         <rect key="frame" x="4" y="4" width="144" height="80"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYc-xB-fyR" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYc-xB-fyR" customClass="BBSevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="48" height="80"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -285,7 +285,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KBt-op-RLc" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KBt-op-RLc" customClass="BBSevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="48" y="0.0" width="48" height="80"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -305,7 +305,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5q2-lW-URf" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5q2-lW-URf" customClass="BBSevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
                                                 <rect key="frame" x="96" y="0.0" width="48" height="80"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5487F6D81BEF34620045DC6C /* SevenSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5487F6D71BEF34620045DC6C /* SevenSegmentView.swift */; };
-		5487F6DA1BEF6BF60045DC6C /* SevenSegmentDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5487F6D91BEF6BF60045DC6C /* SevenSegmentDrawingView.swift */; };
+		5487F6D81BEF34620045DC6C /* BBSevenSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5487F6D71BEF34620045DC6C /* BBSevenSegmentView.swift */; };
+		5487F6DA1BEF6BF60045DC6C /* BBSevenSegmentDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5487F6D91BEF6BF60045DC6C /* BBSevenSegmentDrawingView.swift */; };
 		54B136391BEF1CE700BE5327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B136381BEF1CE700BE5327 /* AppDelegate.swift */; };
 		54B1363B1BEF1CE700BE5327 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1363A1BEF1CE700BE5327 /* ViewController.swift */; };
 		54B1363E1BEF1CE700BE5327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B1363C1BEF1CE700BE5327 /* Main.storyboard */; };
 		54B136401BEF1CE700BE5327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B1363F1BEF1CE700BE5327 /* Assets.xcassets */; };
 		54B136431BEF1CE700BE5327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B136411BEF1CE700BE5327 /* LaunchScreen.storyboard */; };
-		54B1364B1BEF1E5A00BE5327 /* SevenSegmentImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1364A1BEF1E5A00BE5327 /* SevenSegmentImageView.swift */; };
+		54B1364B1BEF1E5A00BE5327 /* BBSevenSegmentImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B1364A1BEF1E5A00BE5327 /* BBSevenSegmentImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5487F6D71BEF34620045DC6C /* SevenSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenSegmentView.swift; sourceTree = "<group>"; };
-		5487F6D91BEF6BF60045DC6C /* SevenSegmentDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenSegmentDrawingView.swift; sourceTree = "<group>"; };
+		5487F6D71BEF34620045DC6C /* BBSevenSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBSevenSegmentView.swift; sourceTree = "<group>"; };
+		5487F6D91BEF6BF60045DC6C /* BBSevenSegmentDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBSevenSegmentDrawingView.swift; sourceTree = "<group>"; };
 		54B136351BEF1CE700BE5327 /* SevenSegmentViewSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenSegmentViewSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B136381BEF1CE700BE5327 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54B1363A1BEF1CE700BE5327 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +27,7 @@
 		54B1363F1BEF1CE700BE5327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54B136421BEF1CE700BE5327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54B136441BEF1CE700BE5327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54B1364A1BEF1E5A00BE5327 /* SevenSegmentImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenSegmentImageView.swift; sourceTree = "<group>"; };
+		54B1364A1BEF1E5A00BE5327 /* BBSevenSegmentImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBSevenSegmentImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +66,9 @@
 				54B1363F1BEF1CE700BE5327 /* Assets.xcassets */,
 				54B136411BEF1CE700BE5327 /* LaunchScreen.storyboard */,
 				54B136441BEF1CE700BE5327 /* Info.plist */,
-				5487F6D71BEF34620045DC6C /* SevenSegmentView.swift */,
-				54B1364A1BEF1E5A00BE5327 /* SevenSegmentImageView.swift */,
-				5487F6D91BEF6BF60045DC6C /* SevenSegmentDrawingView.swift */,
+				5487F6D71BEF34620045DC6C /* BBSevenSegmentView.swift */,
+				54B1364A1BEF1E5A00BE5327 /* BBSevenSegmentImageView.swift */,
+				5487F6D91BEF6BF60045DC6C /* BBSevenSegmentDrawingView.swift */,
 			);
 			path = SevenSegmentViewSampler;
 			sourceTree = "<group>";
@@ -144,11 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5487F6D81BEF34620045DC6C /* SevenSegmentView.swift in Sources */,
+				5487F6D81BEF34620045DC6C /* BBSevenSegmentView.swift in Sources */,
 				54B1363B1BEF1CE700BE5327 /* ViewController.swift in Sources */,
 				54B136391BEF1CE700BE5327 /* AppDelegate.swift in Sources */,
-				54B1364B1BEF1E5A00BE5327 /* SevenSegmentImageView.swift in Sources */,
-				5487F6DA1BEF6BF60045DC6C /* SevenSegmentDrawingView.swift in Sources */,
+				54B1364B1BEF1E5A00BE5327 /* BBSevenSegmentImageView.swift in Sources */,
+				5487F6DA1BEF6BF60045DC6C /* BBSevenSegmentDrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
