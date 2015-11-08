@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SevenSegmentViewSampler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CC5-PE-UTV">
+                                <rect key="frame" x="158" y="178" width="284" height="44"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Enc-F7-E80">
+                                        <rect key="frame" x="2" y="2" width="128" height="40"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nwg-h0-CNb" customClass="SevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="24" height="40"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="5Yc-py-FWS"/>
+                                                    <constraint firstAttribute="width" constant="24" id="uzf-5z-4AL"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.095745278776978415" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinC" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinE" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinF" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinG" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPX-ST-8Tt" customClass="SevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="26" y="0.0" width="24" height="40"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="OM4-IL-ffK"/>
+                                                    <constraint firstAttribute="width" constant="24" id="Oxk-Vn-mg2"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.095745278776978415" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinA" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinG" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinE" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinD" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinF" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cfE-Wf-agE" customClass="SevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="52" y="0.0" width="24" height="40"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="4cg-9M-kYz"/>
+                                                    <constraint firstAttribute="width" constant="24" id="gNA-BU-cGO"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.095745278776978415" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinD" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinE" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinF" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUf-Rg-8jY" customClass="SevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="78" y="0.0" width="24" height="40"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="90l-f6-QQf"/>
+                                                    <constraint firstAttribute="height" constant="40" id="why-YE-Lzs"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.095745278776978415" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinD" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinE" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinF" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bxf-w2-3yq" customClass="SevenSegmentImageView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="104" y="0.0" width="24" height="40"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="06m-kt-5yd"/>
+                                                    <constraint firstAttribute="height" constant="40" id="vto-nF-lFt"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.095745278776978415" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinG" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinDP" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinC" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinD" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinE" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="a4S-Ip-3k7">
+                                        <rect key="frame" x="154" y="2" width="128" height="40"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUF-d2-0BT" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="24" height="40"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="O0p-ZW-TAb"/>
+                                                    <constraint firstAttribute="width" constant="24" id="YUm-tg-tKD"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.10057891187050359" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinC" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinE" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinF" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinG" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinB" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinD" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tvX-rz-87j" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="26" y="0.0" width="24" height="40"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="1OR-Hw-KLZ"/>
+                                                    <constraint firstAttribute="height" constant="40" id="hoU-wK-ccy"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.10057891187050359" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinE" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinG" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinD" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinC" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G9h-qX-9xK" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="52" y="0.0" width="24" height="40"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="8Hb-Y6-QQG"/>
+                                                    <constraint firstAttribute="height" constant="40" id="hDg-kj-muz"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.10057891187050359" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinQM" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinE" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinG" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinDP" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xt8-zh-4lp" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="78" y="0.0" width="24" height="40"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="riV-Yy-HLa"/>
+                                                    <constraint firstAttribute="height" constant="40" id="vpP-m7-7hV"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.10057891187050359" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinE" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinD" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinF" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eU1-gF-gO1" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="104" y="0.0" width="24" height="40"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="2tc-PA-NjS"/>
+                                                    <constraint firstAttribute="height" constant="40" id="nCo-Mt-M6b"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.10057891187050359" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinE" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinG" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinD" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinC" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinB" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pinDP" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Enc-F7-E80" firstAttribute="top" secondItem="CC5-PE-UTV" secondAttribute="top" constant="2" id="OIR-Bo-fHX"/>
+                                    <constraint firstItem="a4S-Ip-3k7" firstAttribute="leading" secondItem="Enc-F7-E80" secondAttribute="trailing" constant="24" id="QUn-Rn-qs8"/>
+                                    <constraint firstAttribute="bottom" secondItem="a4S-Ip-3k7" secondAttribute="bottom" constant="2" id="VSr-hD-rT2"/>
+                                    <constraint firstItem="a4S-Ip-3k7" firstAttribute="top" secondItem="CC5-PE-UTV" secondAttribute="top" constant="2" id="kn1-ni-2Jc"/>
+                                    <constraint firstAttribute="trailing" secondItem="a4S-Ip-3k7" secondAttribute="trailing" constant="2" id="qMV-Pi-AcK"/>
+                                    <constraint firstAttribute="bottom" secondItem="Enc-F7-E80" secondAttribute="bottom" constant="2" id="wEq-gI-uVS"/>
+                                    <constraint firstItem="Enc-F7-E80" firstAttribute="leading" secondItem="CC5-PE-UTV" secondAttribute="leading" constant="2" id="zI8-jB-FCI"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2a2-SE-hiG">
+                                <rect key="frame" x="224" y="356" width="152" height="88"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1K-aW-u2l">
+                                        <rect key="frame" x="4" y="4" width="144" height="80"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYc-xB-fyR" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="48" height="80"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="3lz-F0-GTn"/>
+                                                    <constraint firstAttribute="width" constant="48" id="Vc4-RC-1om"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.1005789119" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="pinBits">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KBt-op-RLc" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="48" y="0.0" width="48" height="80"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="UMo-gS-alx"/>
+                                                    <constraint firstAttribute="width" constant="48" id="kNL-cR-eV1"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.1005789119" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="pinBits">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5q2-lW-URf" customClass="SevenSegmentDrawingView" customModule="SevenSegmentViewSampler" customModuleProvider="target">
+                                                <rect key="frame" x="96" y="0.0" width="48" height="80"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="48" id="H41-aq-ADF"/>
+                                                    <constraint firstAttribute="height" constant="80" id="tsR-1S-6HB"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="onColor">
+                                                        <color key="value" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="offColor">
+                                                        <color key="value" red="1" green="1" blue="1" alpha="0.1005789119" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="pinBits">
+                                                        <integer key="value" value="0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="O1K-aW-u2l" secondAttribute="bottom" constant="4" id="2UD-Op-5Vb"/>
+                                    <constraint firstItem="O1K-aW-u2l" firstAttribute="leading" secondItem="2a2-SE-hiG" secondAttribute="leading" constant="4" id="2rx-dW-X7S"/>
+                                    <constraint firstAttribute="trailing" secondItem="O1K-aW-u2l" secondAttribute="trailing" constant="4" id="v6d-NJ-vZr"/>
+                                    <constraint firstItem="O1K-aW-u2l" firstAttribute="top" secondItem="2a2-SE-hiG" secondAttribute="top" constant="4" id="y3L-3i-Dmv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2a2-SE-hiG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9aB-jv-C4k"/>
+                            <constraint firstItem="CC5-PE-UTV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="2/3" id="QQc-9j-XR3"/>
+                            <constraint firstItem="CC5-PE-UTV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gMn-EQ-c5L"/>
+                            <constraint firstItem="2a2-SE-hiG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="4/3" id="p6f-TW-hk5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stackView" destination="O1K-aW-u2l" id="4oN-gc-DZo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
