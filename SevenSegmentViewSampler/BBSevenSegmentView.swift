@@ -183,6 +183,8 @@ class BBSevenSegmentView: UIView {
     private func commonInit() {
         onColor = tintColor
         offColor = tintColor.colorWithAlphaComponent(0.05)
+        
+        self.backgroundColor = UIColor.clearColor()
     }
     
 }
